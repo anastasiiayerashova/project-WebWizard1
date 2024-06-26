@@ -1,0 +1,86 @@
+.adress{
+    margin-top: 40px;
+    margin-bottom: 40px;}
+footer{
+    background: #1e2827;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.footer-logo{
+    width: 50px;
+    display: flex;
+    fill: #ffff;
+    background-color: transparent;
+    transition-property: transform;
+    transition-duration: 300ms;
+}
+.footer-logo:hover,
+.footer-logo:focus {
+transform: scale(1.1);
+}
+.footer-logo-svg {
+    width: 40px;
+    height: 40px;
+    }
+    .footer-adress {
+        font-size: 14px;
+        line-height: 1.29;
+        letter-spacing: -0.02em;
+        color: #ffff;
+        transition-property: transform;
+        transition-duration: 300ms;
+        display: block;
+        width: 140px;
+        }
+        .footer-adress:hover,
+        .footer-adress:focus {
+            transform: scale(1.1);
+        }
+        .footer-adress-span {
+         display:block ;
+        }
+        .footer-menu {
+            display: block;
+            font-size: 14px;
+            line-height: 1.29;
+            letter-spacing: -0.02em;
+            text-transform: uppercase;
+            color: #ffffff;
+            transition-property: transform;
+            transition-duration: 300ms;
+        }
+        .footer-menu:hover,
+        .footer-menu:focus {
+            transform: scale(1.2);
+        }
+        .footer-svg-menu {
+        fill:#ffffff;
+    width: 40px;
+height: 40px;
+display: flex;
+justify-content: center;
+align-items: center;
+border: 1px solid rgba(255,255,255,0.1);
+border-radius: 10px;
+transition-property: transform;
+transition-duration: 300ms;
+}
+.footer-svg-menu:hover,
+.footer-svg-menu:focus{
+    transform: scale(1.2);
+}
+.footer-text {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    color: #c6cdd1;
+}
+.footer-box{
+    display: flex;
+}
+.footer-list-svg-menu{
+    display: flex;
+    gap: 14px;
+    margin-bottom: 80px
+    ;
+}
