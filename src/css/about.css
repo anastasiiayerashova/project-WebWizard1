@@ -1,0 +1,133 @@
+
+.conteiner {
+    width: 375px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.about-content {
+    border-radius: 50px;
+    width: 335px;
+    height: 446px;
+    background-color: #f3f3f3;
+    padding: 40px 20px 40px 20px;
+}
+.about-title {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+    margin-bottom: 28px;
+}
+.about-list {
+    margin-bottom: 40px;
+}
+.about-item {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: rgba(12, 12, 12, 0.7);
+    margin-bottom: 20px;
+}
+
+.about-btn {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    text-align: center;
+    color: #fbfbfb;
+    border-radius: 16px;
+    border: none;
+    width: 160px;
+    height: 48px;
+    background-color: #3350e9;
+}
+
+.about-btn:hover,
+.about-btn:focus {
+    background-color: #1f3cd4;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.about-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    border-radius: 50px;
+    width: 335px;
+    height: 446px;
+}
+/* -------media------- */
+@media screen and (min-width:768px) {
+.conteiner {
+    width: 768px;
+    padding: 0 32px;
+    margin: 0 auto;
+    display: flex;
+    gap: 40px;
+    }
+.about-content {
+    border-radius: 50px;
+    width: 704px;
+    height: 512px;
+    background-color: #f3f3f3;
+    padding: 80px 60px 80px 60px;
+    }
+.about-title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 0.92;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+    }
+.about-item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    color: rgba(12, 12, 12, 0.7);
+    margin-bottom: 20px;
+}
+.about-list {
+    margin-bottom: 60px;
+}
+.about-wrap {
+    border-radius: 50px;
+    width: 704px;
+    height: 512px;
+}
+}
+
+@media screen and (min-width:1280px) { 
+    .conteiner {
+        width: 1280px;
+        padding: 0 65px;
+        margin: 0 auto;
+        display: flex;
+        gap: 40px;
+        }
+    .about-content {
+        border-radius: 50px;
+        width: 580px;
+        height: 532px;
+        background-color: #f3f3f3;
+        padding: 80px 60px 80px 60px;
+        }
+    .about-title {
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 0.92;
+        letter-spacing: -0.02em;
+        color: #0c0c0c;
+        margin-bottom: 40px;
+        }
+    .about-wrap {
+        border-radius: 50px;
+        width: 530px;
+        height: 532px;
+}
+}
