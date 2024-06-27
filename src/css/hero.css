@@ -42,8 +42,7 @@
   object-fit: cover;
   position: absolute;
   border-radius: 100%;
-  stroke-width: 2px;
-  stroke: #fbfbfb;
+  border: 2px solid white;
 }
 
 .hero-item-picture:nth-child(1) {
@@ -70,7 +69,6 @@
   text-decoration: underline;
   text-decoration-skip-ink: none;
   color: #0c0c0c;
-  padding-top: 26px;
   transition: color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -80,6 +78,7 @@
 }
 
 .hero-picture {
+  max-width: 375px;
   border-radius: 30px;
 }
 
@@ -90,6 +89,10 @@
 
   .container-hero-item {
     margin-bottom: 28px;
+  }
+
+  .hero-item-link {
+    padding-top: 26px;
   }
 }
 
@@ -121,6 +124,22 @@
   .container-hero-item {
     margin-right: 0;
     margin-left: auto;
+  }
+
+  .container-item-picture {
+    align-items: start;
+  }
+
+  .hero-item-picture {
+    max-width: 56px;
+  }
+
+  .hero-item-link {
+    margin-top: auto;
+    margin-bottom: 0;
+    font-size: 20px;
+    line-height: 1;
+    letter-spacing: -0.02em;
   }
 }
 
