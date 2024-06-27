@@ -4,7 +4,7 @@
     font-size: 32px;
     line-height: 1;
     letter-spacing: -0.02em;
-    color: #0c0c0c;;
+    color: #0c0c0c;
 }
 
 .contact-info {
@@ -100,11 +100,8 @@
 
 @media screen and (min-width: 768px) {
 .heading {
-    font-weight: 600;
     font-size: 48px;
     line-height: 0.92;
-    letter-spacing: -0.02em;
-    color: #0c0c0c;
 }
 
 .contact-info {
@@ -148,11 +145,9 @@
 .contact-pictures {
     border-radius: 50px;
 }
-
 }
 
 @media screen and (min-width: 1280px) {
-
 .contact-info {
     display: flex;
     gap: 40px;
