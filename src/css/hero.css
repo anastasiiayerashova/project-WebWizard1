@@ -1,6 +1,6 @@
 .hero {
   padding-top: 60px;
-  padding-bottom: 60px;
+  padding-bottom: 30px;
 }
 
 .hero-title {
@@ -27,7 +27,7 @@
 }
 .container-hero-item {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .container-item-picture {
@@ -61,7 +61,6 @@
 }
 
 .hero-item-link {
-  margin-left: auto;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.29;
@@ -132,6 +131,15 @@
 
   .hero-item-picture {
     max-width: 56px;
+    transform: translateX(-32px);
+  }
+
+  .hero-item-picture:nth-child(2) {
+    left: 40px;
+  }
+
+  .hero-item-picture:nth-child(3) {
+    left: 80px;
   }
 
   .hero-item-link {
@@ -153,5 +161,18 @@
     font-size: 72px;
     line-height: 0.87;
     letter-spacing: -0.02em;
+  }
+
+  .hero-item-picture {
+    max-width: 60px;
+    transform: translateX(-40px);
+  }
+
+  .hero-item-picture:nth-child(2) {
+    left: 42px;
+  }
+
+  .hero-item-picture:nth-child(3) {
+    left: 84px;
   }
 }
