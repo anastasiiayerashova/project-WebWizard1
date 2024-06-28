@@ -4,6 +4,11 @@
 }
 
 .sale-title {
+    font-weight: 600;
+font-size: 32px;
+line-height: 1;
+letter-spacing: -0.02em;
+color: #0c0c0c;
     margin-bottom: 24px;
 }
 
@@ -13,14 +18,10 @@
     margin-bottom: 20px;
 }
 
-.sale-item {
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+.sale-image {
+    padding: 13px 0;
+    margin: 0 auto;
 
-.sale-item:hover {
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 
-    0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .sale-item-wrap {
@@ -55,6 +56,7 @@ font-size: 24px;
 line-height: 1.17;
 letter-spacing: -0.02em;
 color: #fbfbfb;
+margin-bottom: 10px;
 }
 
 .sale-tag {
@@ -63,6 +65,15 @@ font-size: 14px;
 line-height: 1.28;
 letter-spacing: -0.02em;
 color: rgba(251, 251, 251, 0.5);
+margin-bottom: 20px;
+
+}
+
+.sale-price-wrap {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    margin-bottom: 28px;
 }
 
 .sale-price {
@@ -71,6 +82,9 @@ font-size: 16px;
 line-height: 1.25;
 letter-spacing: -0.02em;
 color: #fbfbfb;
+background-color: rgba(251, 251, 251, 0.1);
+border-radius: 8px;
+padding: 8px 12px;
 }
 
 .sale-original-price {
@@ -88,6 +102,14 @@ font-size: 14px;
 line-height: 1.28;
 letter-spacing: -0.02em;
 color: rgba(251, 251, 251, 0.7);
+margin-bottom: 28px;
+
+}
+
+.sale-info-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
 }
 
 .sale-info-item {
@@ -95,26 +117,57 @@ color: rgba(251, 251, 251, 0.7);
 font-size: 12px;
 line-height: 1.33;
 color: #fbfbfb;
+border: 1px solid rgba(251, 251, 251, 0.2);
+border-radius: 8px;
+padding: 8px 12px;
 }
 
 @media screen and (min-width: 768px) {
+    .sale-title {
+font-size: 48px;
+line-height: 0.92;
+margin-bottom: 40px;
+    }
+    .sale-img-wrap {
+        display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    }
+
+    .sale-list {
+        flex-direction: column;
+        gap: 26px;
+    }
+
+    
+    .sale-image {
+        width: 96px;
+        height: 100px;
+        padding: 16px 18px;
+    }
+
+    .sale-big-img {
+        width: 328px;
+        height: 398px;
+    }
+
+    .sale-wrap-big-img {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    }
 
 
 }
 
-/* @media screen and (min-width: 1280px) {
-    .container {
-        max-width: 1280px;
-        padding-right: 15px;
-        padding-left: 15px;
-    }
+@media screen and (min-width: 1280px) {
 
     .section {
         padding-top: 120px;
         padding-bottom: 120px;
     }
 
-    }
+}
 
 
 
@@ -136,4 +189,3 @@ color: #fbfbfb;
         height: 300px;
     }
 
-}   */
