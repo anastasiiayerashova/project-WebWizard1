@@ -69,12 +69,12 @@
   padding-left: 39px;
   padding-right: 39px;
   padding-bottom: 40px;
-  background-color: rgb(17, 14, 11);
+  background-color: #0c0c0c;
   background-image: linear-gradient(
       rgba(12, 12, 12, 0.92) 0%,
       rgba(12, 12, 12, 0.92) 100%
     ),
-    url(../img/header/mob-menu-mob@1x.jpg);
+    url(../img/header/mob-menu-mob@1x.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -88,7 +88,7 @@
         rgba(12, 12, 12, 0.92) 0%,
         rgba(12, 12, 12, 0.92) 100%
       ),
-      url(../img/header/mob-menu-mob@2x.jpg);
+      url(../img/header/mob-menu-mob@2x.png);
   }
 }
 
