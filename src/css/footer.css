@@ -237,8 +237,10 @@
       gap: 40px;
       max-width: 505px;
     }
-    .privacy-list {
+   .privacy-list {
       max-width: 1136px;
+      padding-bottom: 28px;
+      color: #FBFBFB80;
     }
   
     .privacy-list-item:first-child {
