@@ -1,12 +1,12 @@
 .catalog {
-    width: 375px;
+    
 }
 .container {
 }
 .container-catalog {
     margin: 0 auto;
     min-width: 320px;
-    padding: 0px 20px;
+    
 }
 .catalog-title {
     font-weight: 600;
@@ -20,6 +20,7 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+    align-items: center;
 }
 .catalog-list .catalog-item:nth-last-child(-n+2) {
     display: none;
@@ -29,12 +30,20 @@
 border: 1px solid rgba(12, 12, 12, 0.05);
 border-radius: 30px;
 background: #f3f3f3;
+width: 100%;
+height: 100%;
 }
 .catalog-cover {
 
 }
+.catalog-img {
+    margin: 0 auto;
+    margin-top: 42px;
+    margin-bottom: 18px;
+}
 .container-catalog-name {
     padding: 10px 28px 24px;
+
 }
 .catalog-subtitle {
     font-weight: 500;
@@ -42,7 +51,7 @@ background: #f3f3f3;
     line-height: 1.25;
     letter-spacing: -0.02em;
     color: #0c0c0c;
-margin-bottom: 8px;
+    margin-bottom: 8px;
 }
 .catalig-price {
     font-weight: 400;
@@ -65,4 +74,65 @@ color: #fbfbfb;
 display: block;
 margin: 0 auto;
 margin-top: 40px;
+}
+
+@media screen and (min-width: 768px) {
+
+    .container-catalog { 
+    
+    }
+    .catalog-title {
+        font-size: 48px;
+        line-height: 0.91667;
+        margin-bottom: 40px;
+    }   
+    .catalog-img {
+        margin-top: 34px;
+        margin-bottom: 20px;
+    }
+    .catalog-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 32px 16px;
+    }
+    .catalog-item {
+        width: calc((100% - 16px) / 2);
+    }
+    .catalog-list .catalog-item:nth-last-child(-n+2) {
+        display: block;
+    }
+    .container-catalog-name {
+        padding: 10px 32px 24px;
+    
+    }
+    .catalog-btn {
+        display: none;
+    }
+    .catalog-subtitle {
+    font-size: 20px;
+line-height: 1;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+width: 100%;
+}
+}
+
+@media screen and (min-width: 1280px) {
+    .catalog-list {
+        gap: 32px 23px;
+    }
+        .catalog-img {
+            margin-top: 30px;
+            margin-bottom: 24px;
+        }    
+        
+    .catalog-item {
+        width: calc((100% - 23px*2) / 3);
+        max-width: 100%;
+}
+    .catalog-img {
+        display: block;
+    }
 }
