@@ -54,6 +54,13 @@
   pointer-events: none;
   transition: opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1),
     visibility 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: rgba(46, 47, 66, 0.4);
+}
+
+.mob-menu-overlay.is-open {
+  opacity: 1;
+  pointer-events: auto;
+  visibility: visible;
 }
 
 .mob-menu {
@@ -64,8 +71,7 @@
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  overflow: auto;
+  justify-content: center;
   align-items: center;
   padding-left: 39px;
   padding-right: 39px;
@@ -79,6 +85,7 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  transition: transform 250ms cubic-bezier(0.19, 1, 0.22, 1);
 }
 
 .mob-menu-list {
@@ -86,9 +93,20 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 32px;
-  margin-top: 310px;
-  margin-bottom: 155px;
+  gap: 24px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.header-socials-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 34px;
+  height: 34px;
+  color: transparent;
+  border-radius: 10px;
+  border: 1px solid rgba(251, 251, 251, 0.1);
 }
 
 .mob-menu-link {
@@ -141,13 +159,13 @@
 }
 
 .mob-menu-socials-icon {
-  fill: #fbfbfb;
+  fill: #fbfbfbcc;
   transition: fill 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .mob-menu-socials-icon:hover,
 .mob-menu-socials-icon:focus {
-  fill: #3350e9;
+  fill: #fbfbfb;
 }
 
 @media screen and (-webkit-min-device-pixel-ratio: 2),
@@ -185,6 +203,27 @@
 
   .mob-menu {
     width: 330px;
+  }
+
+  .mob-menu-list {
+    gap: 32px;
+  }
+
+  .header-socials-link {
+    width: 36px;
+    height: 36px;
+  }
+
+  .close-mob-menu-bnt {
+    top: 26px;
+    right: 32px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .close-menu-icon {
+    width: 40px;
+    height: 40px;
   }
 }
 

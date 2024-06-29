@@ -2,7 +2,7 @@
   <div class="container">
     <nav class="header-navigation">
       <a href="#" class="header-logo">watchcharm</a>
-      <button type="button" class="open-menu-btn">
+      <button type="button" class="open-menu-btn" data-menu-open>
         <svg class="open-menu-icon" width="34" height="34">
           <use href="/img/icons.svg#open-menu-icon"></use>
         </svg>
@@ -63,9 +63,9 @@
     </nav>
   </div>
   <!--Mobile menu-->
-  <div class="mob-menu-overlay">
+  <div class="mob-menu-overlay" data-menu>
     <div class="mob-menu">
-      <button type="button" class="close-mob-menu-bnt">
+      <button type="button" class="close-mob-menu-bnt" data-menu-close>
         <svg class="close-menu-icon" width="34" height="34">
           <use href="/img/icons.svg#close-menu-icon"></use>
         </svg>
@@ -73,22 +73,24 @@
 
       <ul class="mob-menu-list">
         <li class="mob-menu-item">
-          <a href="#home" class="mob-menu-link">Home</a>
+          <a href="#home" class="mob-menu-link" data-menu-close>Home</a>
         </li>
         <li class="mob-menu-item">
-          <a href="#about" class="mob-menu-link">About Us</a>
+          <a href="#about" class="mob-menu-link" data-menu-close>About Us</a>
         </li>
         <li class="mob-menu-item">
-          <a href="#catalog" class="mob-menu-link">Catalog</a>
+          <a href="#catalog" class="mob-menu-link" data-menu-close>Catalog</a>
         </li>
         <li class="mob-menu-item">
-          <a href="#sale" class="mob-menu-link">Sale</a>
+          <a href="#sale" class="mob-menu-link" data-menu-close>Sale</a>
         </li>
         <li class="mob-menu-item">
-          <a href="#reviews" class="mob-menu-link">Reviews</a>
+          <a href="#reviews" class="mob-menu-link" data-menu-close>Reviews</a>
         </li>
         <li class="mob-menu-item">
-          <a href="#contact" class="mob-menu-link">Contact Us</a>
+          <a href="#contact" class="mob-menu-link" data-menu-close
+            >Contact Us</a
+          >
         </li>
       </ul>
 
