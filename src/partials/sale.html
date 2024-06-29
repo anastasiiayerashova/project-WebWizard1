@@ -1,106 +1,173 @@
-<section class="section section-sale">
-    <div class="container sale-container">
+<section class="section-sale" id="sale">
+    <div class="container">
+        <div class="sale-list">
         <h2 class="sale-title">Sale</h2>
-        <div class="sale-main-block">
-            <div class="sale-img-wrap">
-                <ul class="sale-list">
-                    <div class="sale-item-wrap">
-                        <li class="sale-item">
-                            <picture>
-                            <source srcset="/img/sale/sale-1x/mob/a-watch-mob-1x.png 1x, /img/sale/sale-2x/mob/a-watch-mob-2x.png 2x" media="(min-width: 375px)">
-                            <source srcset="/img/sale/sale-1x/tab/a-watch-tab-1x.png 1x, /img/sale/sale-2x/tab/a-watch-tab-2x.png 2x" media="(min-width: 768px)">
-                            <source srcset="img/sale/sale-1x/desk/a-watch-desk-1x.png 1x, /img/sale/sale-2x/desk/a-watch-desk-2x.png 2x" media="(min-width: 1280px)">
-                            <img
-                            src="/img/sale/sale-1x/desk/a-watch-desk-1x.png"
-                            alt="Front image of the watch"
-                            width="52"
-                            height="54"
-                            class="sale-image"
-                            />
-                            </picture>
-                        </li>
-                    </div>
-                    <div class="sale-item-wrap">
-                        <li class="sale-item">
-                            <picture>
-                            <source srcset="/img/sale/sale-1x/mob/b-watch-mob-1x.png 1x, /img/sale/sale-2x/mob/b-watch-mob-2x.png 2x" media="(min-width: 375px)">
-                            <source srcset="/img/sale/sale-1x/tab/b-watch-tab-1x.png 1x, /img/sale/sale-2x/tab/b-watch-tab-2x.png 2x" media="(min-width: 768px)">
-                            <source srcset="/img/sale/sale-1x/desk/b-watch-desk-1x.png 1x, /img/sale/sale-2x/desk/b-watch-desk-2x.png 2x" media="(min-width: 1280px)">
-                            <img
-                            src="/img/sale/sale-1x/desk/b-watch-desk-1x.png"
-                            alt="Front image of the watch"
-                            width="52"
-                            height="54"
-                            class="sale-image"
-                            />
-                            </picture>
-                        </li>
-                    </div>
-                    <div class="sale-item-wrap">
-                        <li class="sale-item">
-                            <picture>
-                                <source srcset="/img/sale/sale-1x/mob/c-watch-mob-1x.png 1x, /img/sale/sale-2x/mob/c-watch-mob-2x.png 2x" media="(min-width: 375px)">
-                                <source srcset="/img/sale/sale-1x/tab/c-watch-tab-1x.png 1x, /img/sale/sale-2x/tab/c-watch-tab-2x.png 2x" media="(min-width: 768px)">
-                                <source srcset="img/sale/sale-1x/desk/c-watch-desk-1x.png 1x, /img/sale/sale-2x/desk/c-watch-desk-2x.png 2x" media="(min-width: 1280px)">
-                                <img
-                                src="/img/sale/sale-1x/desk/c-watch-desk-1x.png"
-                                alt="Side image of the watch"
-                                width="52"
-                                height="54"
-                                class="sale-image"
-                                />
-                            </picture>
-                        </li>
-                    </div>
-                    <div class="sale-item-wrap">
-                        <li class="sale-item">
-                            <picture>
-                                <source srcset="/img/sale/sale-1x/mob/d-watch-mob-1x.png 1x, /img/sale/sale-2x/mob/d-watch-mob-2x.png 2x" media="(min-width: 375px)">
-                                <source srcset="/img/sale/sale-1x/tab/d-watch-tab-1x.png 1x, /img/sale/sale-2x/tab/d-watch-tab-2x.png 2x" media="(min-width: 768px)">
-                                <source srcset="img/sale/sale-1x/desk/d-watch-desk-1x.png 1x, /img/sale/sale-2x/desk/d-watch-desk-2x.png 2x" media="(min-width: 1280px)">
-                                <img
-                                src="/img/sale/sale-1x/desk/d-watch-desk-1x.png"
-                                alt="Back image of the watch"
-                                width="52"
-                                height="54"
-                                class="sale-image"
-                                />
-                            </picture>
-                        </li>
-                    </div>
-                </ul>
-                <div class="sale-wrap-big-img">
-                    <picture>
-                    <source srcset="/img/sale/sale-1x/mob/e-watch-mob-1x.png 1x, /img/sale/sale-2x/mob/e-watch-mob-2x.png 2x" media="(min-width: 375px)">
-                    <source srcset="/img/sale/sale-1x/tab/e-watch-tab-1x.png 1x, /img/sale/sale-2x/tab/e-watch-tab-2x.png 2x" media="(min-width: 768px)">
-                    <source srcset="img/sale/sale-1x/desk/e-watch-desk-1x.png 1x, /img/sale/sale-2x/desk/e-watch-desk-2x.png 2x" media="(min-width: 1280px)">
-                    <img
-                    src="/img/sale/sale-1x/desk/e-watch-desk-1x.png"
+        <div class="sale-wrapper">
+        <div class="sale-watch-wrapper">
+            <ul class="sale-foto-list">
+            <li class="sale-foto-item">
+                <picture>
+                <source
+                    srcset="
+                    /img/sale/sale-1x/mob/a-watch-mob-1x.png 1x,
+                    /img/sale/sale-2x/mob/a-watch-mob-2x.png 2x
+                    "
+                    media="(max-width: 767px)"
+                />
+                <source
+                    srcset="
+                    /img/sale/sale-1x/tab/a-watch-tab-1x.png 1x,
+                    /img/sale/sale-2x/tab/a-watch-tab-2x.png 2x
+                    "
+                    media="(min-width: 768px)"
+                />
+                <img
+                    src="/img/sale/sale-1x/tab/a-watch-tab-1x.png"
                     alt="Front image of the watch"
-                    width="235"
-                    height="285"
+                    width="52"
+                    height="54"
+                    class="sale-image"
+                />
+                </picture>
+            </li>
+            <li class="sale-foto-item">
+                <picture>
+                <source
+                    srcset="
+                    /img/sale/sale-1x/mob/b-watch-mob-1x.png 1x,
+                    /img/sale/sale-2x/mob/b-watch-mob-2x.png 2x
+                    "
+                    media="(max-width: 767px)"
+                />
+                <source
+                    srcset="
+                    /img/sale/sale-1x/tab/b-watch-tab-1x.png 1x,
+                    /img/sale/sale-2x/tab/b-watch-tab-2x.png 2x
+                    "
+                    media="(min-width: 768px)"
+                />
+                <img
+                    src="/img/sale/sale-1x/tab/b-watch-tab-1x.png"
+                    alt="Front image of the watch"
+                    width="52"
+                    height="54"
+                    class="sale-image"
+                />
+                </picture>
+            </li>
+            <li class="sale-foto-item">
+                <picture>
+                <source
+                    srcset="
+                    /img/sale/sale-1x/mob/c-watch-mob-1x.png 1x,
+                    /img/sale/sale-2x/mob/c-watch-mob-2x.png 2x
+                    "
+                    media="(max-width: 767px)"
+                />
+                <source
+                    srcset="
+                    /img/sale/sale-1x/tab/c-watch-tab-1x.png 1x,
+                    /img/sale/sale-2x/tab/c-watch-tab-2x.png 2x
+                    "
+                    media="(min-width: 768px)"
+                />
+                <img
+                    src="/img/sale/sale-1x/tab/c-watch-tab-1x.png"
+                    alt="Side image of the watch"
+                    width="52"
+                    height="54"
+                    class="sale-image"
+                />
+                </picture>
+            </li>
+            <li class="sale-foto-item">
+                <picture>
+                <source
+                    srcset="
+                    /img/sale/sale-1x/mob/d-watch-mob-1x.png 1x,
+                    /img/sale/sale-2x/mob/d-watch-mob-2x.png 2x
+                    "
+                    media="(max-width: 767px)"
+                />
+                <source
+                    srcset="
+                    /img/sale/sale-1x/tab/d-watch-tab-1x.png 1x,
+                    /img/sale/sale-2x/tab/d-watch-tab-2x.png 2x
+                    "
+                    media="(min-width: 768px)"
+                />
+                <img
+                    src="/img/sale/sale-1x/tab/d-watch-tab-1x.png"
+                    alt="Back image of the watch"
+                    width="52"
+                    height="54"
+                    class="sale-image"
+                />
+                </picture>
+            </li>
+            </ul>
+            <div class="sale-wrap-big-img">
+            <picture>
+                <source
+                srcset="
+                    /img/sale/sale-1x/mob/e-watch-mob-1x.png 1x,
+                    /img/sale/sale-2x/mob/e-watch-mob-2x.png 2x
+                "
+                media="(max-width: 767px)"
+                />
+                <source
+                    srcset="
+                    /img/sale/sale-1x/tab/e-watch-tab-1x.png 1x,
+                    /img/sale/sale-2x/tab/e-watch-tab-2x.png 2x
+                    "
+                    media="(min-width: 768px)"
+                />
+                <img
+                    src="/img/sale/sale-2x/tab/e-watch-tab-2x.png"
+                    alt="Front image of the watch"
                     class="sale-big-img"
-                    />
-                    </picture>
-                </div>
+                />
+                </picture>
+            </div>
             </div>
             <div class="sale-info-block">
-                <p class="sale-info-title">MARQ® Commander (Gen 2) - Carbon Edition</p>
-                <p class="sale-tag">Product tag: 706587</p>
-                <div class="sale-price-wrap">
-                    <p class="sale-price">€1500</p>
-                    <p class="sale-original-price">€3000</p>
-                </div>
-                <p class="sale-text">The Garmin MARQ Commander Gen 2 Carbon Edition is a modern smartwatch for adventurers that takes materials and features to the next level. The body of the watch is made of very durable Fused Carbon Fiber material and has a precise AMOLED touch screen. The sensitive touch screen is complemented by buttons that can be used in any conditions. </p>
-                <ul class="sale-info-list">
-                    <li class="sale-info-item">Fused carbon fiber </li>
-                    <li class="sale-info-item">Grade-5 Titanuim</li>
-                    <li class="sale-info-item">Athlete</li>
-                    <li class="sale-info-item">Golfer</li>
-                    <li class="sale-info-item">Commander</li>
-                    <li class="sale-info-item">Adventurer</li>
-                </ul>
+            <h3 class="sale-info-title">
+                MARQ® Commander (Gen 2) - Carbon Edition
+            </h3>
+            <p class="sale-tag">Product tag: 706587</p>
+            <div class="sale-price-container">
+                <p class="sale-price">€1500</p>
+                <p class="sale-original-price">€3000</p>
             </div>
+            <p class="sale-text">
+                The Garmin MARQ Commander Gen 2 Carbon Edition is a modern
+                smartwatch for adventurers that takes materials and features to the
+                next level. The body of the watch is made of very durable Fused
+                Carbon Fiber material and has a precise AMOLED touch screen. The
+                sensitive touch screen is complemented by buttons that can be used
+                in any conditions.
+            </p>
+            <ul class="sale-info-list">
+                <li class="sale-info-item">
+                <p class="sale-info-item-text">Fused carbon fiber</p>
+                </li>
+                <li class="sale-info-item">
+                <p class="sale-info-item-text">Grade-5 Titanuim</p>
+                </li>
+                <li class="sale-info-item">
+                <p class="sale-info-item-text">Athlete</p>
+                </li>
+                <li class="sale-info-item">
+                </li>
+                <li class="sale-info-item">
+                <p class="sale-info-item-text">Commander</p>
+                </li>
+                <li class="sale-info-item">
+                <p class="sale-info-item-text">Adventurer</p>
+                </li>
+            </ul>
+            </div>
+        </div>
         </div>
     </div>
 </section>
