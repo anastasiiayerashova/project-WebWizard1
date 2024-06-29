@@ -11,13 +11,28 @@
 .advert-wrap {
   padding: 60px 28px;
   border-radius: 30px;
-  max-width: 335px;
+  max-width: 1280px;
   display: flex;
   flex-direction: column;
+  align-items: start;
   gap: 28px;
+  background-color: #0c0c0c;
+  background-image: url(/img/advert/adv-mob@1x.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 2dppx),
+  (min-resolution: 192dpi) {
+  .advert-wrap {
+    background-image: url(/img/advert/adv-mob@2x.png);
+  }
 }
 
 .advert-title {
+  font-family: Gilroy, sans-serif;
   color: #fbfbfb;
   font-weight: 600;
   font-size: 32px;
@@ -31,13 +46,74 @@
 
 .advert-link {
   border: 1px solid rgba(251, 251, 251, 0.15);
+  background-color: transparent;
   border-radius: 16px;
-  width: 160px;
-  height: 48px;
-  display: block;
+  min-width: 160px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.29;
   text-align: center;
   color: #fbfbfb;
+  padding: 15px 43px;
+}
+
+@media screen and (min-width: 768px) {
+  .section-advert {
+    padding: 40px 0;
+  }
+
+  .container {
+    max-width: 768px;
+    padding: 0 32px;
+  }
+
+  .advert-wrap {
+    padding: 80px 64px;
+    gap: 32px;
+    background-image: url(/img/advert/adv-tab@1x.png);
+  }
+
+  @media screen and (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 2dppx),
+    (min-resolution: 192dpi) {
+    .advert-wrap {
+      background-image: url(/img/advert/adv-tab@2x.png);
+    }
+  }
+
+  .advert-title {
+    width: 576px;
+    font-size: 48px;
+    line-height: 0.92;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .section-advert {
+    padding: 50px 0;
+  }
+
+  .container {
+    max-width: 1280px;
+    padding: 0 65px;
+  }
+
+  .advert-wrap {
+    flex-direction: row;
+    gap: 0;
+    justify-content: space-between;
+    background-image: url(/img/advert/adv-des@1x.png);
+  }
+
+  @media screen and (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 2dppx),
+    (min-resolution: 192dpi) {
+    .advert-wrap {
+      background-image: url(/img/advert/adv-desk@2x.png);
+    }
+  }
+
+  .advert-title {
+    width: 690px;
+  }
 }
