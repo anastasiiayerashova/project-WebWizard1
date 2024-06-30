@@ -204,6 +204,23 @@
 
   .mob-menu {
     width: 330px;
+    background-image: linear-gradient(
+        rgba(12, 12, 12, 0.92) 0%,
+        rgba(12, 12, 12, 0.92) 100%
+      ),
+      url(/img/header/mob-menu-tab@1x.png);
+  }
+
+  @media screen and (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 2dppx),
+    (min-resolution: 192dpi) {
+    .mob-menu {
+      background-image: linear-gradient(
+          rgba(12, 12, 12, 0.92) 0%,
+          rgba(12, 12, 12, 0.92) 100%
+        ),
+        url(/img/header/mob-menu-tab@2x.png);
+    }
   }
 
   .mob-menu-list {
