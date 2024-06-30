@@ -1,0 +1,251 @@
+.footer {
+  padding: 0 20px 20px;
+}
+
+.footer-container {
+  max-width: 375px;
+  margin: 0 auto;
+  padding: 40px 28px 28px 28px;
+  background-color: #0c0c0c;
+  border-radius: 30px;
+  color: #fbfbfb;
+}
+
+.footer-social-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.footer-social {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer-logo {
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+}
+
+.footer-social-list {
+  display: flex;
+  gap: 10px;
+}
+
+.footer-social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 34px;
+  height: 34px;
+  border: 1px solid rgba(251, 251, 251, 0.1);
+  border-radius: 10px;
+}
+
+.footer-social-icon {
+  opacity: 0.8;
+  fill: #fbfbfb;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-social-link:hover .footer-social-icon,
+.footer-social-link:focus .footer-social-icon {
+  fill: #ffffff;
+  opacity: 1;
+}
+
+.footer-address-link {
+  display: block;
+  padding: 14px 20px;
+  max-width: 160px;
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  border-radius: 16px;
+  font-weight: 500;
+  font-size: 12px;
+  font-style: normal;
+  line-height: 1.33;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fbfbfb;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-address-link:hover,
+.footer-address-link:focus {
+  background-color: #fbfbfb;
+  color: #0c0c0c;
+}
+.footer-text {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fbfbfb;
+  margin-bottom: 92px;
+}
+
+.footer-navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-nav-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 8px 16px;
+  width: 147px;
+}
+
+.footer-nav-link {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.33;
+  text-align: center;
+  color: #fbfbfb;
+}
+
+.address-item {
+  width: 83px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.33;
+  color: #fbfbfb;
+}
+
+.footer-privacy-container {
+  position: relative;
+  margin-top: 48px;
+}
+
+.footer-privacy-container::before {
+  content: '';
+  width: 100%;
+  height: 1px;
+  background-color: rgba(251, 251, 251, 0.1);
+  display: block;
+  position: absolute;
+  top: -24px;
+}
+
+.footer-privacy-text {
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 1.4;
+  margin-bottom: 8px;
+  letter-spacing: -0.02em;
+  color: rgba(251, 251, 251, 0.5);
+}
+
+.footer-privacy-list {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-privacy-link {
+  display: block;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 1.4;
+  letter-spacing: -0.02em;
+  text-decoration: none;
+  color: rgba(251, 251, 251, 0.5);
+}
+
+@media screen and (min-width: 768px) {
+  .footer {
+    padding: 0 32px 32px;
+  }
+
+  .footer-container {
+    max-width: 768px;
+    padding: 40px 40px 28px 40px;
+  }
+
+  .footer-social-container {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 86px;
+  }
+
+  .footer-logo {
+    font-size: 20px;
+  }
+
+  .footer-address-link {
+    font-size: 14px;
+    line-height: 1.29;
+    padding: 14px;
+  }
+
+  .footer-text {
+    font-size: 28px;
+    line-height: 1.14;
+    width: 524px;
+    margin: 0 auto;
+  }
+
+  .footer-navigation {
+    margin-top: 100px;
+  }
+
+  .footer-nav-list {
+    gap: 19px;
+    width: 400px;
+  }
+
+  .footer-nav-link {
+    font-size: 14px;
+    line-height: 1.29;
+  }
+
+  .address-item {
+    width: 162px;
+    font-size: 14px;
+    line-height: 1.29;
+  }
+
+  .footer-privacy-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 56px;
+  }
+
+  .footer-privacy-text {
+    font-size: 14px;
+    line-height: 1.29;
+    margin: 0;
+  }
+
+  .footer-privacy-link {
+    font-size: 14px;
+    line-height: 1.29;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .footer-container {
+    max-width: 1280px;
+  }
+
+  .footer-text {
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translate(-50%);
+  }
+
+  .footer-nav-list {
+    gap: 19px;
+    width: 400px;
+  }
+}
