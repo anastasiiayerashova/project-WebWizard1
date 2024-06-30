@@ -241,6 +241,10 @@
     max-width: 1280px;
   }
 
+  .footer > .footer-container {
+    position: relative;
+  }
+
   .footer-text {
     position: absolute;
     top: 40px;
