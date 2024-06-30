@@ -29,6 +29,10 @@
   padding: 24px 28px;
 }
 
+.catalog-image img {
+  margin: 0 auto;
+}
+
 .container-catalog-name {
   display: flex;
   flex-direction: column;
