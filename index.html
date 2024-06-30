@@ -15,7 +15,7 @@
     
     
     <script type="module" crossorigin src="/project-WebWizard1/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/project-WebWizard1/assets/index-65b5d91a.css">
+    <link rel="stylesheet" href="/project-WebWizard1/assets/index-46d6b55d.css">
   </head>
   <body>
     <header class="header">
@@ -668,7 +668,87 @@
   </div>
 </section>
 
-      
+      <section class="section">
+  <div class="container">
+    <h2 class="heading">Contact US</h2>
+    <div class="contact-info">
+      <div class="contact-block">
+        <p class="text-contact-info text-idiscription">
+          Please use the form below to contact us. Enter your name, email,
+          phone, and message and we'll get back to you shortly.
+        </p>
+        <form class="contact-form">
+          <div class="input-fields">
+            <div class="usher-contact">
+              <input
+                class="contact-field"
+                id="usher-name"
+                type="text"
+                name="usher-name"
+                placeholder="Name"
+                pattern="[A-Z]][a-z]{1,15}"
+                required
+              />
+            </div>
+            <div class="usher-contact">
+              <input
+                class="contact-field"
+                id="usher-email"
+                type="email"
+                name="usher-email"
+                placeholder="Email"
+                pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+                required
+              />
+            </div>
+            <div class="usher-contact">
+              <input
+                class="contact-field"
+                id="usher-tel"
+                type="tel"
+                name="usher-tel"
+                placeholder="+380"
+                pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
+                required
+              />
+            </div>
+            <div class="usher-contact-text">
+              <textarea
+                class="text-comment"
+                name="user-comment"
+                id="user-comment"
+                placeholder="Comment"
+              ></textarea>
+            </div>
+          </div>
+          <button class="button-contact" type="submit">Send</button>
+        </form>
+      </div>
+      <div class="contact-pictures">
+        <picture>
+          <source
+            srcset="/project-WebWizard1/assets/contact-us-1x-cd79f0b9.jpg 1x, /project-WebWizard1/assets/contact-us-2x-2f349a41.jpg 2x"
+            media="(min-width: 1280px)"
+          />
+          <source
+            srcset="/project-WebWizard1/assets/contact-us-tab-1x-e8105199.jpg 1x, /project-WebWizard1/assets/contact-us-tab-2x-fb8c4e48.jpg 2x"
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="/project-WebWizard1/assets/contact-us-mob-1x-02dcbe5a.jpg 1x, /project-WebWizard1/assets/contact-us-mob-2x-410d876a.jpg 2x"
+            media="(max-width: 767px)"
+          />
+          <img
+            class="contact-image"
+            src="/project-WebWizard1/assets/contact-us-mob-1x-02dcbe5a.jpg"
+            alt="premium-watches-image"
+          />
+        </picture>
+      </div>
+    </div>
+  </div>
+</section>
+
     </main>
     
     
