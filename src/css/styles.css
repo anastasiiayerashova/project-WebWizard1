@@ -9,6 +9,11 @@
 @import url('./contact.css');
 @import url('./footer.css');
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 50px;
+}
+
 h1,
 h2,
 h3,
